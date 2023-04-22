@@ -1,0 +1,165 @@
+/*Onni*/
+body{
+  background-image: url("/Background/Onni-Web-Background.png");
+  background-size: cover;
+  background-attachment: fixed;
+}
+.ylhäällä{
+  display: none;
+}
+.backToUp{
+  text-align: center;
+  align-self: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 200px;
+  color: rgba(0, 0, 0, 0.8);
+  font-size: large;
+  font-family: Roboto, Arial;
+}
+.backButton{
+  background-color: rgb(75, 139, 155);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80px;
+  width: 80px;
+  border-radius: 40px;
+  margin: 15px;
+  float: left;
+}
+.backButton-tektsi{
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+  border-radius: 50px;
+  background-color: rgb(75, 139, 155);
+}
+.vanhempi{
+    text-align: center;
+}
+.Otsikko{
+  margin: auto;
+  height: 80px;
+  display: inline-block;
+  font-size: 50px;
+  transition: Font-size 0.5s ease;
+  font-family: 'Roboto', sans-serif;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  animation: blink 2s infinite;
+  text-decoration: underline;
+  cursor: default;
+}
+@keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0.8; }
+    100% { opacity: 1; }
+  }
+  .Otsikko:hover{
+    font-size: 55px;
+    cursor: default;
+  }
+
+  .syntymä{
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+    font-family: 'Roboto', Arial;
+    font-weight: 400;
+    line-height: 1.5;
+    cursor: default;
+    background-color:  rgba(87, 150, 221, 0.5);
+    max-width: 500px; /* lisätty max-width */
+    border-radius: 10px;
+    margin-top: 50px;
+
+    margin: auto;
+  }
+  .syntymä-tektsi-otsikko{
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 0;
+  }
+  .syntymä-tektsi{
+    margin-top: 0;
+    text-align: center;
+    font-family: 'Roboto', Arial;
+  }
+  .persoona-tektsi-otsikko{
+    text-align: center;
+    text-decoration: underline;
+    font-family: 'Roboto', Arial;
+    font-size: 44px;
+    margin-bottom: 0px;
+  }
+  .persoona{
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+    margin-bottom: 200px;
+    font-family: 'Roboto', Arial;
+    font-weight: 400;
+    line-height: 1.5;   
+    background-color: rgba(87, 150, 221, 0.5);
+    cursor: default;
+    
+
+    max-width: 1000px; /* lisätty max-width */
+    border-radius: 10px;
+
+    margin: auto;
+  }
+  .persoona-tektsi{
+    text-align: center;
+  }
+
+  .follow-container{
+    background-image: linear-gradient(to bottom,
+    rgba(134, 162, 204, 0.6),
+   rgba(136, 135, 135, 0.6));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px black;
+    height: 150px;
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 100px;
+  }
+  .follow{
+    height: 150px;
+    width: 300px;
+    margin: 0;
+    margin-top: 15px;
+    text-align: center;
+  }
+  .igIcon{
+    height: 100px;
+    width: 100px;
+    margin-bottom: 20px;
+  }
+
+  
+  .onniKuva{
+    display: block;
+  margin: 0 auto;
+  height: 700px;
+  width: 350px;
+  border-radius: 5px;
+  cursor: default;
+  }
+  .onniKuva{
+    display: block;
+    margin: 0 auto;
+    margin-top: 25px;
+    height: 700px;
+    width: 500px;
+    border-radius: 50px;
+    cursor: default;
+  
+    transition: all 0.3s ease-in-out;
+    }
+    .onniKuva:hover{
+      height: 800px;
+      width: 600px;
+    }
+
